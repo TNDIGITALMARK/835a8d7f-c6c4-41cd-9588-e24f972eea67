@@ -41,9 +41,16 @@ export default function DiscoveryDashboard() {
               <div className="bg-white rounded-lg p-2 mr-3">
                 <BookOpen className="h-8 w-8 text-blue-600" />
               </div>
-              <div>
+              <div className="mr-4">
                 <h1 className="text-2xl font-bold academic-title text-white">ACADEMIA.TV</h1>
                 <p className="text-blue-100 text-sm">Peer-to-Peer Learning Network</p>
+              </div>
+              <div className="hidden sm:block">
+                <img
+                  src="/currentImgContext/ChatGPT Image Aug 24, 2025, 03_04_13 PM.png"
+                  alt="Academia.TV Mascot"
+                  className="h-16 w-16 object-contain drop-shadow-lg"
+                />
               </div>
             </div>
 
